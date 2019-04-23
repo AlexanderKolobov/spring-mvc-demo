@@ -10,6 +10,7 @@ public class Customer
     @Size(min = 1, message = "is required")
     private String lastName;
 
+    @NotNull( message = "is required" )
     @Min( value = 1, message = "must be greater then or equal to one")
     @Max( value = 10, message = "must be less then or equal to ten")
     private Integer freePasses;

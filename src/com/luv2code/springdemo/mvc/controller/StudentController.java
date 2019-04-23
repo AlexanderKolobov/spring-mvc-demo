@@ -1,5 +1,6 @@
-package com.luv2code.springdemo.mvc;
+package com.luv2code.springdemo.mvc.controller;
 
+import com.luv2code.springdemo.mvc.model.Student;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

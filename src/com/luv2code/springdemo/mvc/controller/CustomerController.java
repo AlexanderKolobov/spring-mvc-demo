@@ -1,5 +1,6 @@
-package com.luv2code.springdemo.mvc;
+package com.luv2code.springdemo.mvc.controller;
 
+import com.luv2code.springdemo.mvc.model.Customer;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
